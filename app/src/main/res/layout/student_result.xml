@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="#36D7B7">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="4"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name  :"
+                android:layout_margin="10dp" />
+            <TextView
+                android:id="@+id/tvRoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Roll No.  :"
+                android:layout_margin="10dp" />
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Your Semester  :"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_getResult"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"
+            android:text="Get Result"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <LinearLayout
+        android:id="@+id/lvcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:background="#FFC7C7C7"
+        android:weightSum="3"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:padding="3dp"
+            android:text="Subject"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="left"
+            android:text="Marks"
+            android:padding="3dp"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/lvcontainer1"
+        android:layout_weight="6.5"
+        ></ListView>
+    <TextView
+        android:id="@+id/txtresulttext1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text=""
+        android:textColor="#FFF55F54"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"></TextView>
+</LinearLayout>

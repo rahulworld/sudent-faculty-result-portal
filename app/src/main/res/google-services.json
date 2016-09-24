@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "874413433131",
+    "project_id": "share-408d3"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874413433131:android:d4d856eaaf4eb5dc",
+        "android_client_info": {
+          "package_name": "com.share.sharaz.share"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ1vtjxOKeet-llYYk5hrWmmGfz-zM7pU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
