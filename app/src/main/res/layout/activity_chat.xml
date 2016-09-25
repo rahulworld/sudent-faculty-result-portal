@@ -13,10 +13,10 @@
         android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="66dp"
         android:textColor="#001010"
         android:id="@+id/textView"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -58,5 +58,6 @@
         android:layout_centerHorizontal="true"
         android:textColor="#000"
         android:layout_marginTop="37dp"
-        android:text="IT Department"/>
+        android:text="Information Technology\nDepartment"
+        android:gravity="center"/>
 </RelativeLayout>
