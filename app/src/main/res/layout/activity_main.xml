@@ -47,7 +47,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:text="Rahul Chauhan\nEnroll - 562/14"
+            android:text="Rahul Chauhan\nEnroll - 562/14 CSE"
             android:gravity="center"
             android:textSize="20dip"
             android:textColor="#000"/>
