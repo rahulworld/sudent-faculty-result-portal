@@ -169,12 +169,9 @@ public class StudentResult extends Activity {
                     lv1.setAdapter(adapter);
                     lbl.setText("Result Imported");
                 }
-            }catch(Exception e)
-            {
+            }catch(Exception e) {
                 Toast.makeText(getApplicationContext(), "Result Not Uploaded", Toast.LENGTH_SHORT).show();
             }
-
-
         }
     }
 }

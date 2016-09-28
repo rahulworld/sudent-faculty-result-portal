@@ -44,12 +44,9 @@ public class FacultyLogin extends Activity {
     private static final int REQUEST_SIGNUP = 0;
     ProgressDialog progressDialog;
 
-    //String name,roll,pointer;
-
     @InjectView(R.id.input_email1) EditText _emailText;
     @InjectView(R.id.input_password1) EditText _passwordText;
     @InjectView(R.id.btn_login1) Button _loginButton;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
